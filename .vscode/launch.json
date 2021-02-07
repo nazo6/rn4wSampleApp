@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "Launch UWP",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "launch",
+      "platform": "windows"
+    },
+    {
+      "name": "Attach",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "attach"
+    },
+    {
+      "name": "Launch Android",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnativedirect",
+      "request": "launch",
+      "platform": "android"
+    }
+  ]
+}
